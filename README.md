@@ -10,3 +10,16 @@ Whilst old, it still seems to cover the fundamentals very well. The assignments 
 
 I have since begun working through the individual projects, listed [here](https://www.dezyre.com/article/top-10-machine-learning-projects-for-beginners/397), to further solidify what I have learnt from the course.  
 - [Iris Flowers Classification ML Project– Learn about Supervised Machine Learning Algorithms](https://github.com/JanThan/LearningML/tree/master/IRIS)
+
+As part of this process, I will also need to be able to implement the following algorithms from scratch on more simple datasets.
+- Linear regression
+- Logistic regression
+- Descision tree
+- SVM (support vector machine)
+- Naive Bayes
+- KNN (K-Nearest Neighbours)
+- K-Means
+- Random Forest
+- Dimensionality Reduction Algorithms
+- Gradient Boosting and AdaBoost
+By implementing them at the most basic level, I will be able to gain a greater appreciation for their stengths and limitations. 
