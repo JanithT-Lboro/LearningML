@@ -12,7 +12,7 @@ I have since begun working through the individual projects, listed [here](https:
 - [Iris Flowers Classification ML Project– Learn about Supervised Machine Learning Algorithms](https://github.com/JanThan/LearningML/tree/master/IRIS)
 
 As part of this process, I will also need to be able to implement the following algorithms from scratch on more simple datasets.
-- Linear regression
+- [Linear regression](https://github.com/JanThan/LearningML/blob/master/LinearRegression/LinearRegression.py)
 - Logistic regression
 - Descision tree
 - SVM (support vector machine)
