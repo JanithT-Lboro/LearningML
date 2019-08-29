@@ -17,7 +17,7 @@ As part of this process, I will also need to be able to implement the following 
 - Descision tree
 - SVM (support vector machine)
 - Naive Bayes
-- [KNN (K-Nearest Neighbours)](https://github.com/JanThan/LearningML/tree/master/KNN)
+- [KNN (K-Nearest Neighbours)](https://github.com/JanThan/LearningML/tree/master/AlgorithmImplementations/KNN)
 - K-Means
 - Random Forest
 - Dimensionality Reduction Algorithms
