@@ -1,4 +1,4 @@
-#Problem  
+# Problem  
 Problem defined on [Kaggle website:](https://www.kaggle.com/pavanraj159/concrete-compressive-strength-data-set)  
 
 'Compressive strength or compression strength is the capacity of a material or structure to withstand loads tending to reduce size, as opposed to tensile strength, which withstands loads tending to elongate.  
@@ -15,4 +15,4 @@ The workflow for this problem was as follows:
 - fit multiple models to training data
 - predict for test inputs and compare results against test output
 
-##Variables Summary
+## Variables Summary
