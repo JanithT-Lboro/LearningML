@@ -16,6 +16,7 @@ The workflow for this problem was as follows:
 - predict for test inputs and compare results against test output
 
 ## Variables Summary
+### Distribution of inputs
 ![cement](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/cement_hist.png)
 ![furnaceSlag](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/furnaceSlag_hist.png)
 ![flyAsh](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/flyAsh_hist.png)
@@ -24,9 +25,12 @@ The workflow for this problem was as follows:
 ![coarseAgg](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/coarseAgg_hist.png)
 ![fineAgg](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/fineAgg_hist.png)
 ![age](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/age_hist.png)
+### Distribution of Compressive Strength of Concrete
 ![compressiveStr](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/compressiveStr_hist.png)
 
+### Pair plot of all variables
 ![pairplot](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/pairplot.png)
+### Heatmap of all variables
 ![heatmap](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/heatmap.png)
 
 ![]()
