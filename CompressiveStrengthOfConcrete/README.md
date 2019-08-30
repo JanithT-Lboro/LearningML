@@ -16,4 +16,4 @@ The workflow for this problem was as follows:
 - predict for test inputs and compare results against test output
 
 ## Variables Summary
-[cement_hist](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/cement_hist.png)
+![cement](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/cement_hist.png)
