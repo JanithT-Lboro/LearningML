@@ -33,7 +33,64 @@ The workflow for this problem was as follows:
 ### Heatmap of all variables
 ![heatmap](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/heatmap.png)
 
-![]()
+## Regressor Model Summaries
+### Linear 
+RMSE: 9.795398721673989  
+cross validation scores:  
+cv_mean: -114.2803289093508  
+cv_std : 30.97472155939001  
+cv_max : -69.11350348829288  
+cv_min : -182.32786747085345  
+### Ridge
+RMSE: 9.795403258998174  
+cross validation scores:  
+cv_mean: -114.28027376941168  
+cv_std : 30.974720390144906  
+cv_max : -69.11358504057787  
+cv_min : -182.32776523171808  
+### Lasso 
+RMSE: 9.814158430974311  
+cross validation scores:  
+cv_mean: -114.33989273214044  
+cv_std : 30.988222580936736  
+cv_max : -69.62466384275456  
+cv_min : -181.5355275143075  
+### AdaBoost 
+RMSE: 7.463366760984524  
+cross validation scores:  
+cv_mean: -62.034275033019696  
+cv_std : 11.502743280075848  
+cv_max : -35.2872339112232  
+cv_min : -84.45680821179937  
+### Extra Trees
+RMSE: 4.393527569553418  
+cross validation scores:  
+cv_mean: -27.783247529989797  
+cv_std : 10.976242557468428  
+cv_max : -15.157219985958205  
+cv_min : -54.73096984426451  
+### Random Forest 
+RMSE: 4.85921342620648  
+cross validation scores:  
+cv_mean: -28.92654077558577  
+cv_std : 11.463643581743373  
+cv_max : -10.814747898017886  
+cv_min : -62.783547469457  
+### Gradient Boosting  
+RMSE: 4.516740235579305  
+cross validation scores:  
+cv_mean: -28.796978089462964  
+cv_std : 10.105333195100439  
+cv_max : -17.25217971564181  
+cv_min : -59.305702049837336  
+### KNN  
+RMSE: 8.889407344918  
+cross validation scores:  
+cv_mean: -88.80697042800375  
+cv_std : 22.50831845644143  
+cv_max : -42.70991345411688  
+cv_min : -131.89289369501964  
+![]() 
 ![]()
 ![]()
 ![]()
