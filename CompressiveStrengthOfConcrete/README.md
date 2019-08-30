@@ -13,7 +13,7 @@ The workflow for this problem was as follows:
 - visualise dataset
 - split dataset in training and test
 - fit multiple models to training data
-- predict for test inputs and compare results against test output  
+- predict for test inputs and compare results against test output    
 This is easier recognised within the [source code.](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/concreteCompression2.py)  
 Various outputs from this workflow can be found below... 
 
