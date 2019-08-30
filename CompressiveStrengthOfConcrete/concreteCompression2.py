@@ -14,7 +14,6 @@ RandomForestRegressor, GradientBoostingRegressor
 
 ##############################################################################
 # MODEL
-target = 'compressive_strength'
 def model(algo, X_train, X_test, y_train, y_test, of_type):
   print('algorithm used:', algo)
   
