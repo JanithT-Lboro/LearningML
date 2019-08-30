@@ -25,7 +25,6 @@ def model(algo, X_train, X_test, y_train, y_test, of_type):
   # compare predictions against actual, y_test
   print('\nRMSE:', np.sqrt(mean_squared_error(y_test,prediction)))
   
-  prediction = pd.DataFrame(prediction)
   cross_val = cross_val_score(algo, X_train, y_train, cv=20, scoring='neg_mean_squared_error')
   cross_val = cross_val.ravel()
   print('cross validation scores:')
