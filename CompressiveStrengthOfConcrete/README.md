@@ -7,6 +7,18 @@ compressive strength is one of the most important engineering properties of conc
 
 The concrete compressive strength is a highly nonlinear function of age and ingredients .These ingredients include cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate, and fine aggregate.'    
 
+## Name -- Data Type -- Measurement -- Description
+- Cement -- quantitative -- kg in a m3 mixture -- Input Variable
+- Blast Furnace Slag -- quantitative -- kg in a m3 mixture -- Input Variable
+- Fly Ash -- quantitative -- kg in a m3 mixture -- Input Variable
+- Water -- quantitative -- kg in a m3 mixture -- Input Variable
+- Superplasticizer -- quantitative -- kg in a m3 mixture -- Input Variable
+- Coarse Aggregrate -- quantitative -- kg in a m3 mixture -- Input Variable
+- Fine Aggregrate -- quantitative -- kg in a m3 mixture -- Input Variable
+- Age -- quantitative -- Day (1~365) -- Input Variable
+- Concrete compressive strength -- quantitative -- MPa -- Output Variable
+
+## Approach 
 The model created attempts to predict the compressive strength of concrete using the listed features. I made use of sklearn library and imported multiple algorithms to fit the [data](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/Concrete_Data.xls) to, in an attempt to find the one which performs best.    
 The workflow for this problem was as follows:
 - load dataset
@@ -33,7 +45,7 @@ The various outputs from this workflow can be found below...
 
 ### Pair plot of all variables
 ![pairplot](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/pairplot.png)
-### Heatmap of all variables
+### Corellation of data heatmap
 ![heatmap](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/heatmap.png)
 
 ## Regressor Model Summaries
