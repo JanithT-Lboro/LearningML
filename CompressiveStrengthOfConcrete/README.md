@@ -17,3 +17,21 @@ The workflow for this problem was as follows:
 
 ## Variables Summary
 ![cement](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/cement_hist.png)
+![furnaceSlag](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/furnaceSlag_hist.png)
+![flyAsh](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/flyAsh_hist.png)
+![water](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/water_hist.png)
+![superPlasticizer](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/superPlasticizer_hist.png)
+![coarseAgg](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/coarseAgg_hist.png)
+![fineAgg](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/fineAgg_hist.png)
+![age](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/age_hist.png)
+![compressiveStr](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/compressiveStr_hist.png)
+
+![pairplot](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/pairplot.png)
+![heatmap](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/heatmap.png)
+
+![]()
+![]()
+![]()
+![]()
+
+
