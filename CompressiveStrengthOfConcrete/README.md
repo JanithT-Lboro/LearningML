@@ -7,13 +7,14 @@ compressive strength is one of the most important engineering properties of conc
 
 The concrete compressive strength is a highly nonlinear function of age and ingredients .These ingredients include cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate, and fine aggregate.'    
 
-The model created attempts to predict the compressive strength of concrete using the listed features. I made use of sklearn library and imported multiple algorithms to fit the data to, in an attempt to find the one which performs best.    
+The model created attempts to predict the compressive strength of concrete using the listed features. I made use of sklearn library and imported multiple algorithms to fit the [data](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/Concrete_Data.xls) to, in an attempt to find the one which performs best.    
 The workflow for this problem was as follows:
 - load dataset
 - visualise dataset
 - split dataset in training and test
 - fit multiple models to training data
 - predict for test inputs and compare results against test output
+This is easier recognised within the [source code](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/concreteCompression2.py)
 
 ## Variables Summary
 ### Distribution of inputs
