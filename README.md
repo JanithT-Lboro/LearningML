@@ -12,6 +12,7 @@ I have since begun working through the following individual projects, to further
 - [Iris Flowers Classification ML Project](https://github.com/JanThan/LearningML/tree/master/IRIS)
 - [Boston Housing Prices Estimate Project](https://github.com/JanThan/LearningML/tree/master/BostonHousingProblem)
 - [Compressive Strength of Concrete](https://github.com/JanThan/LearningML/tree/master/CompressiveStrengthOfConcrete)
+- [Predicting Forest Fires](https://github.com/JanThan/LearningML/tree/master/PredictingForestFires)
 
 As part of this process, I will also need to be able to implement the following algorithms from scratch on more simple datasets to also gain a better understanding of how particular algorithms work. In the interest of saving time, I will in most cases be randomly generating datasets to use.
 - [Linear regression](https://github.com/JanThan/LearningML/tree/master/AlgorithmImplementations/LinearRegression)
