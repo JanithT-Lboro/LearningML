@@ -58,7 +58,8 @@ The Rain variable was found to be incredibly skewed as can be seen and so was re
 
 ### Feature Importances
 ![Feature Importances](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/Feature%20Importances.png)
-Due to the month data not classing very highly in feature importance, I removed them to see what effect it would have on the logistic regression model. It was found that it had very minimal impact. After further learning about other optimisation methods, I plan to return to this project to re-attampt its optimisation.
+Due to the month data not classing very highly in feature importance, I removed them to see what effect it would have on the logistic regression model. It was found that it had very minimal impact.  
+After further learning about other optimisation methods, I plan to return to this project to re-attampt its optimisation as it is not a good model as it stands.
 
 ## Logistic Regression Model Summary
 ### Before with months data  
