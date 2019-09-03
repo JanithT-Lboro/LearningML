@@ -1,4 +1,4 @@
-# Problem  
+# About this dataset
 Problem is to try to predict the burned area of forest firest in the northeast region of Portugal. 
 Data was found [here](https://archive.ics.uci.edu/ml/datasets/forest+fires)  
 
@@ -8,13 +8,7 @@ The details are described in [Cortez and Morais, 2007].
 Please include this citation if you plan to use this database:  
 P. Cortez and A. Morais. A Data Mining Approach to Predict Forest Fires using Meteorological Data.  
 In J. Neves, M. F. Santos and J. Machado Eds., New Trends in Artificial Intelligence, Proceedings of the 13th EPIA 2007 - Portuguese Conference on Artificial Intelligence, December, Guimaraes, Portugal, pp. 512-523, 2007. APPIA, ISBN-13 978-989-95618-0-9. 
-Available at: http://www.dsi.uminho.pt/~pcortez/fires.pdf
-
-'Compressive strength or compression strength is the capacity of a material or structure to withstand loads tending to reduce size, as opposed to tensile strength, which withstands loads tending to elongate.  
-
-compressive strength is one of the most important engineering properties of concrete. It is a standard industrial practice that the concrete is classified based on grades. This grade is nothing but the Compressive Strength of the concrete cube or cylinder. Cube or Cylinder samples are usually tested under a compression testing machine to obtain the compressive strength of concrete. The test requisites differ country to country based on the design code.  
-
-The concrete compressive strength is a highly nonlinear function of age and ingredients .These ingredients include cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate, and fine aggregate.'    
+Available at: http://www.dsi.uminho.pt/~pcortez/fires.pdf 
 
 ## Attribute Information
 For more information, read [Cortez and Morais, 2007]. 
@@ -35,95 +29,45 @@ For more information, read [Cortez and Morais, 2007].
 sense to model with the logarithm transform).
 
 ## Approach 
-The model created attempts to predict the compressive strength of concrete using the listed features. I made use of sklearn library and imported multiple algorithms to fit the [data](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/Concrete_Data.xls) to, in an attempt to find the one which performs best.    
+Due to the very skewed nature of the 'area' attribute, I made this into a logistic regression task in attempt to class whether or whether not a forest fire would occur.  
 The workflow for this problem was as follows:
 - load dataset
 - visualise dataset
-- split dataset in training and test
-- fit multiple models to training data
+- perform some data preprocessing
+- fit simple logistic regression model to training data
 - predict for test inputs and compare results against test output    
-
-This is easier recognised within the [source code.](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/concreteCompression2.py)  
+- I also attempted to use feature importance to optimise the dataset, however found it to not be particularly impactful. 
+This is easier recognised within the [source code.](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/forestFires2.py)  
 The various outputs from this workflow can be found below... 
 
 ## Variables Summary
+The Rain variable was found to be incredibly skewed as can be seen and so was removed from the dataset. 
 ### Distribution of inputs
-![cement](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/cement_hist.png)
-![furnaceSlag](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/furnaceSlag_hist.png)
-![flyAsh](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/flyAsh_hist.png)
-![water](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/water_hist.png)
-![superPlasticizer](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/superPlasticizer_hist.png)
-![coarseAgg](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/coarseAgg_hist.png)
-![fineAgg](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/fineAgg_hist.png)
-![age](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/age_hist.png)
+![X](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/X.png)
+![Y](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/Y.png)
+![FFMC](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/FFMC.png)
+![DMC](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/DMC.png)
+![DC](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/DC.png)
+![ISI](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/ISI.png)
+![Temp](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/temp.png)
+![RH](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/RH.png)
+![Wind](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/wind.png)
+![Rain](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/rain.png)
 ### Distribution of Compressive Strength of Concrete
-![compressiveStr](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/compressiveStr_hist.png)
+![Area](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/area.png)
 
-### Pair plot of all variables
-![pairplot](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/pairplot.png)
-### Corellation of data heatmap
-![heatmap](https://github.com/JanThan/LearningML/blob/master/CompressiveStrengthOfConcrete/figures/heatmap.png)
+### Feature Importances
+![Feature Importances](https://github.com/JanThan/LearningML/blob/master/PredictingForestFires/images/Feature%20Importances.png)
+Due to the month data not classing very highly in feature importance, I removed them to see what effect it would have on the logistic regression model. It was found that it had very minimal impact. After further learning about other optimisation methods, I plan to return to this project to re-attampt its optimisation.
 
-## Regressor Model Summaries
-### Linear 
-RMSE: 9.795398721673989  
-cross validation scores:  
-cv_mean: -114.2803289093508  
-cv_std : 30.97472155939001  
-cv_max : -69.11350348829288  
-cv_min : -182.32786747085345  
-### Ridge
-RMSE: 9.795403258998174  
-cross validation scores:  
-cv_mean: -114.28027376941168  
-cv_std : 30.974720390144906  
-cv_max : -69.11358504057787  
-cv_min : -182.32776523171808  
-### Lasso 
-RMSE: 9.814158430974311  
-cross validation scores:  
-cv_mean: -114.33989273214044  
-cv_std : 30.988222580936736  
-cv_max : -69.62466384275456  
-cv_min : -181.5355275143075  
-### AdaBoost 
-RMSE: 7.463366760984524  
-cross validation scores:  
-cv_mean: -62.034275033019696  
-cv_std : 11.502743280075848  
-cv_max : -35.2872339112232  
-cv_min : -84.45680821179937  
-### Extra Trees
-RMSE: 4.393527569553418  
-cross validation scores:  
-cv_mean: -27.783247529989797  
-cv_std : 10.976242557468428  
-cv_max : -15.157219985958205  
-cv_min : -54.73096984426451  
-### Random Forest 
-RMSE: 4.85921342620648  
-cross validation scores:  
-cv_mean: -28.92654077558577  
-cv_std : 11.463643581743373  
-cv_max : -10.814747898017886  
-cv_min : -62.783547469457  
-### Gradient Boosting  
-RMSE: 4.516740235579305  
-cross validation scores:  
-cv_mean: -28.796978089462964  
-cv_std : 10.105333195100439  
-cv_max : -17.25217971564181  
-cv_min : -59.305702049837336  
-### KNN  
-RMSE: 8.889407344918  
-cross validation scores:  
-cv_mean: -88.80697042800375  
-cv_std : 22.50831845644143  
-cv_max : -42.70991345411688  
-cv_min : -131.89289369501964  
-![]() 
-![]()
-![]()
-![]()
-
-
+## Logistic Regression Model Summary
+### Before with months data
+Accuracy Score : 0.5865384615384616
+Precision Score : 0.5865384615384616
+Recall Score : 1.0
+F1 Score : 0.7393939393939394
+### After removing months data
+Accuracy Score : 0.5576923076923077
+Precision Score : 0.631578947368421
+Recall Score : 0.5901639344262295
+F1 Score : 0.6101694915254237
