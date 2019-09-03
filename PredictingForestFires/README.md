@@ -61,13 +61,13 @@ The Rain variable was found to be incredibly skewed as can be seen and so was re
 Due to the month data not classing very highly in feature importance, I removed them to see what effect it would have on the logistic regression model. It was found that it had very minimal impact. After further learning about other optimisation methods, I plan to return to this project to re-attampt its optimisation.
 
 ## Logistic Regression Model Summary
-### Before with months data
-Accuracy Score : 0.5865384615384616
-Precision Score : 0.5865384615384616
-Recall Score : 1.0
-F1 Score : 0.7393939393939394
-### After removing months data
-Accuracy Score : 0.5576923076923077
-Precision Score : 0.631578947368421
-Recall Score : 0.5901639344262295
-F1 Score : 0.6101694915254237
+### Before with months data  
+Accuracy Score : 0.59  
+Precision Score : 0.59  
+Recall Score : 1.0  
+F1 Score : 0.74  
+### After removing months data  
+Accuracy Score : 0.56  
+Precision Score : 0.63  
+Recall Score : 0.59  
+F1 Score : 0.61  
