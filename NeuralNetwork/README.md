@@ -1,2 +1,3 @@
 This is a documentation of my progress in further solidifying my knowledge on Neural Networks following on from Andrew Ng's coursera course.  
+I have begun following Micharl Nielsen's tutorial on creating Networks ([link](http://neuralnetworksanddeeplearning.com/chap1.html)) in an effort to further my understanding. It seems to be very indepth and I will be posting the results of this in the next coming days.
 More to come ...
