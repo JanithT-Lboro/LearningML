@@ -1,3 +1,8 @@
+"""
+The code from following a tutorial to complete a neural network.
+plan to make my own in near future ... 
+"""
+
 import numpy as np
 import random
 
