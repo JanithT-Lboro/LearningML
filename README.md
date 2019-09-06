@@ -26,3 +26,5 @@ As part of this process, I will also need to be able to implement the following 
 - Dimensionality Reduction Algorithms
 - Gradient Boosting and AdaBoost
 By implementing them at the most basic level, I will be able to gain a greater appreciation for their stengths and limitations. 
+
+I have also recently begun to look at neural networks more [closely](https://github.com/JanThan/LearningML/tree/master/NeuralNetwork). More to come! 
