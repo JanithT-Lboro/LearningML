@@ -1,7 +1,7 @@
 This is a documentation of my progress in further solidifying my knowledge on Neural Networks following on from Andrew Ng's coursera course.  
 ## Neural Network with no Hidden Layer
 See [Link]() for implementation of NN without hidden layers. As this was my first effort, I thought it best to start an implementation without a hidden layer. As this would only be able to use linear boundaries I created this very simple dataset:  
-![LinearDataSet](https://github.com/JanThan/LearningML/blob/master/NeuralNetwork/images/LinearDataset.PNG)
+![LinearDataSet](https://github.com/JanThan/LearningML/blob/master/NeuralNetwork/images/LinearDataset.PNG)  
 From this dataset, it is obvious that there is a positive correlation between obesity and being diabetic.  
 I trained it with a learning rate of 0.05 over 20000 iterations and was able to get a error of 0.0039.
 I then tested this model on two test data points: [1 0 0] and [0 1 0].  
