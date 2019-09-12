@@ -1,5 +1,13 @@
 This is a documentation of my progress in further solidifying my knowledge on Neural Networks following on from Andrew Ng's coursera course.  
-
+## Neural Network with no Hidden Layer
+See [Link]() for implementation of NN without hidden layers. As this was my first effort, I thought it best to start an implementation without a hidden layer. As this would only be able to use linear boundaries I created this very simple dataset:  
+Person    Smoking   Obesity   Exercise  Diabetic  
+1         0           1           0          1  
+2         0           0           1          0  
+3         1           0           0          0  
+4         1           1           0          1  
+5         1           1           1          1  
+From this dataset, it is obvious 
 ## Neural Network with One Hidden Layer
 See [Link](https://github.com/JanThan/LearningML/blob/master/NeuralNetwork/NN_withHiddenLayer.py) for my first implementation of a Neural Network with a single hidden layer from scratch.  
 I created a non-linear dataset to test this on using 'make moons' from the Scikit library:  
