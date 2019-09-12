@@ -5,8 +5,7 @@ See [Link]() for implementation of NN without hidden layers. As this was my firs
 From this dataset, it is obvious that there is a positive correlation between obesity and being diabetic.   
 I trained it with a learning rate of 0.05 over 20000 iterations and was able to get a error of 0.0039.  
 I then tested this model on two test data points: [1 0 0] and [0 1 0].  
-The model correctly gave [1 0 0] a confidence of 1.78%  
-and [0 1 0] a confidence of 99.53%
+The model correctly gave [1 0 0] a confidence of 1.78% and [0 1 0] a confidence of 99.53%
 
 ## Neural Network with One Hidden Layer
 See [Link](https://github.com/JanThan/LearningML/blob/master/NeuralNetwork/NN_withHiddenLayer.py) for my first implementation of a Neural Network with a single hidden layer from scratch.  
