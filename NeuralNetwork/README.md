@@ -14,4 +14,4 @@ I created a non-linear dataset to test this on using 'make moons' from the Sciki
 I was able to reach a loss of 0.06 using a learning rate of 0.01 over just 200 iterations.  
 ![lossgraph](https://github.com/JanThan/LearningML/blob/master/NeuralNetwork/images/NN_with_hidden_cost.png)
 ## Neural Network (One Hidden Layer) - slightly neater implementation
-See [Link](https://github.com/JanThan/LearningML/blob/master/NeuralNetwork/NN_4_alt.py) for a slightly altered implementation of the previous. It has the advantage of being more flexible to use for different purposes and overall easier to read and understand. 
+See [Link](https://github.com/JanThan/LearningML/blob/master/NeuralNetwork/NN_4_alt.py) for a slightly altered implementation of the previous. It has the advantage of being more flexible to use for different purposes and overall easier to read and understand, whilst being similar in performance to previous.
