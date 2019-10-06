@@ -20,3 +20,9 @@ Checking that there is an even distribution of classes:
 A comparison of the different accuracies achieved via the different methods of classification attempted:  
 ![comparison of methods](https://github.com/JanThan/LearningML/blob/master/IRIS/images/comparison_methods2.png)
 
+# Evaluation
+From the above results, it can be seen that any of the listed methods would perform well.  
+I chose to use the SVM method going forward.  
+I was able to achieve an accuracy of 93% with very good f1, prescision and recall results...  
+![results](https://github.com/JanThan/LearningML/blob/master/IRIS/images/results.png)
+
