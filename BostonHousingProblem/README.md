@@ -2,7 +2,7 @@ See [BostonHousing.py](https://github.com/JanThan/LearningML/blob/master/BostonH
 
 # Visualisation of dataset
 As always, I first visualised the dataset to get a better understanding of it...  
-A general description of the dataset:  
+A general description of the dataset (click image if it is unclear):    
 ![description](https://github.com/JanThan/LearningML/blob/master/BostonHousingProblem/images/descr.png)
 What the first 5 data points looks like:  
 ![head](https://github.com/JanThan/LearningML/blob/master/BostonHousingProblem/images/head.PNG)  
