@@ -18,5 +18,5 @@ Checking that there is an even distribution of classes:
 
 # Comparison of different methods
 A comparison of the different accuracies achieved via the different methods of classification attempted:  
-![comparison of methods](https://github.com/JanThan/LearningML/blob/master/IRIS/images/comparison_methods.png)
+![comparison of methods](https://github.com/JanThan/LearningML/blob/master/IRIS/images/comparison_methods2.png)
 
