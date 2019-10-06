@@ -24,5 +24,5 @@ A comparison of the different accuracies achieved via the different methods of c
 From the above results, it can be seen that any of the listed methods would perform well.  
 I chose to use the SVM method going forward.  
 I was able to achieve an accuracy of 93% with very good f1, prescision and recall results...  
-![results](https://github.com/JanThan/LearningML/blob/master/IRIS/images/results.png)
+![results](https://github.com/JanThan/LearningML/blob/master/IRIS/images/results.PNG)
 
