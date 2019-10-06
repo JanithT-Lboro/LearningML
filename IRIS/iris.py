@@ -48,14 +48,13 @@ print('\n', dataset.groupby('class').size()) # 50 for each class
 # Univariate (plot each variable) and Multivariate (interactions between variables) plots 
 
 # ... Univariate
-dataset.plot(kind='box', subplots = True, layout=(2,2), sharex=False, sharey=False) # box plot
-plt.show()
-dataset.hist() # histogram
-plt.show()
+dataset.plot(kind='box', subplots = True, layout=(2,2), sharex=False, sharey=False, figsize=(10,10)) # box plot
+#plt.show()
+dataset.hist(figsize=(10,10)) # histogram
+#plt.show()
 
 # ... Multivariate
-scatter_matrix(dataset) 
-plt.show()
+scatter_matrix(dataset, figsize=(10,10)) 
 print('\n')
 
 ##############################################################################
@@ -98,7 +97,7 @@ for name, model in models:
   print(string)
 
 # visualise accuracy of methods
-fig= plt.figure()
+fig= plt.figure(figsize=(10,10))
 fig.suptitle('Comparison')
 plt.boxplot(results)
 ax = fig.add_subplot()
