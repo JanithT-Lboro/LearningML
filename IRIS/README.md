@@ -10,13 +10,13 @@ Checking that there is an even distribution of classes:
 ![count](https://github.com/JanThan/LearningML/blob/master/IRIS/images/count.PNG)  
 
 ## Box Plot
-![box plot](https://github.com/JanThan/LearningML/blob/master/IRIS/images/box_plot.PNG)  
+![box plot](https://github.com/JanThan/LearningML/blob/master/IRIS/images/box_plot.png)  
 ## Histogram Plot  
-![histogram](https://github.com/JanThan/LearningML/blob/master/IRIS/images/hist_plot.PNG)  
+![histogram](https://github.com/JanThan/LearningML/blob/master/IRIS/images/hist_plot.png)  
 ## Scatter Matrix  
-![scatter matrix](https://github.com/JanThan/LearningML/blob/master/IRIS/images/scatter_matrix.PNG)  
+![scatter matrix](https://github.com/JanThan/LearningML/blob/master/IRIS/images/scatter_matrix.png)  
 
 # Comparison of different methods
 A comparison of the different accuracies achieved via the different methods of classification attempted:  
-![comparison of methods](https://github.com/JanThan/LearningML/blob/master/IRIS/images/comparison_methods.PNG)
+![comparison of methods](https://github.com/JanThan/LearningML/blob/master/IRIS/images/comparison_methods.png)
 
