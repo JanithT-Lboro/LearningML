@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Oct  6 13:46:21 2019
+
+@author: janit
+"""
+
 # Load the libraries 
 #import sys 
 #import numpy # Mathematics functions, Arrays, Matrices
@@ -6,10 +13,10 @@
 import matplotlib.pyplot as plt # Visualisation of data
 import pandas # Data manipulation + Analysis
 from pandas.plotting import scatter_matrix # draw a matrix of scatter plots
-import sklearn # General ML toolbox, Linear Regression, Classification etc.
+#import sklearn # General ML toolbox, Linear Regression, Classification etc.
 from sklearn import model_selection
 from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
+#from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 # models to be used later
 from sklearn.linear_model import LogisticRegression
@@ -99,7 +106,7 @@ ax.set_xticklabels(names)
 plt.show()
 
 # based on results, SVM used... any of listed methods would work given the result
-KNN = SVC(gamma=auto)
+KNN = SVC(gamma='auto')
 KNN.fit(X_train, Y_train)
 predictions = KNN.predict(X_validation)
 # print(confusion_matrix(Y_validation, predictions))
