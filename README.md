@@ -27,4 +27,8 @@ As part of this process, I will also need to be able to implement the following 
 - Gradient Boosting and AdaBoost
 By implementing them at the most basic level, I will be able to gain a greater appreciation for their stengths and limitations. 
 
-I have also recently begun to look at neural networks more [closely](https://github.com/JanThan/LearningML/tree/master/NeuralNetwork). More to come! 
+# Neural Networks
+I also began to learn how to implement neural networks.  [Initial Learning](https://github.com/JanThan/LearningML/tree/master/NeuralNetwork).
+I worked on applying this to various datasets:
+- [cifar-10 dataset](https://github.com/JanThan/LearningML/tree/master/cifar10_dataset)
+
